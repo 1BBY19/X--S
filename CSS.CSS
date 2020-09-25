@@ -28,3 +28,19 @@ ul li {
     margin-left: auto;
     margin-right: auto;
 }
+
+
+#nav {
+width:750px;
+margin:0 auto;
+list-style:none;
+}
+#nav li {
+float:left;
+}
+#nav a {
+display:block;
+text-align:center;
+width:150px; /* fixed width */
+text-decoration:none; 
+}
