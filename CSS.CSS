@@ -1,45 +1,86 @@
-h1>les planètes du système solaire <h1>
-<h1><style type='text/css'>
 body{
- color:red;
- background-color: black}
-</style><h1>
-
-
-
-body {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	font-family: Helvetica , Arial , sans-serif;
+	background-color: black;
+	font-size: 29px;
+	line-height: 30px;
 }
-
-div maincontainer {
-    margin: 0 auto;
-    width: ___px;
-    text-align: center;
+header{
+	background-color: white;
+	text-align: center;
+	.header-logo img {
+width: 100px;
+height: 100px;
 }
-
-ul {
-    margin: 0;
-    padding: 0;
-}
-
-ul li {
-    margin-left: auto;
-    margin-right: auto;
 }
 
 
-#nav {
-width:750px;
-margin:0 auto;
-list-style:none;
+
+h1, h2, h3, h4, h5, h6,{
+  line-height: 30px; 
 }
-#nav li {
-float:left;
+
+
+
+
+header h1{
+	 color: black;
 }
-#nav a {
-display:block;
-text-align:center;
-width:150px; /* fixed width */
-text-decoration:none; 
+
+main{
+	max-width: 800px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 20px;
 }
+main img{
+	max-width: 100%;
+
+}
+h2{
+	font-size: 40px;
+	color: #AE0E08;
+}
+
+h3{
+	font-size: 40px;
+	color: #D4BB04;
+}
+a{
+	color: #AE0E08;
+}
+a: hover{
+	color: white;
+	background-color: #010864;
+}
+
+h4{ font-size: 40px;
+
+
+
+}
+
+
+h5{
+
+    font-size: 40px;
+	text-align: left;
+}
+
+
+
+
+footer{
+	background-color: black;
+	text-align: center;
+	color: red;
+	font-size: 20px;
+}
+
+
+footer p{
+	margin: 0;
+}
+
+
+
