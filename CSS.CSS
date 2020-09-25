@@ -1,3 +1,13 @@
 div {
   padding: 25px;
 }
+
+body {
+  background-color: black;
+}
+h1 {
+  color: blue;
+}
+p {
+  color: red;
+}
